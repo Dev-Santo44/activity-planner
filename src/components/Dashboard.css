@@ -1,0 +1,100 @@
+.Nav-con{
+    width: 100%;
+}
+header {
+    width: 100%;
+    background-color: #6200ea;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #c5acff;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+th,td{
+    padding: 15px 30px;
+    
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.search-date {
+    width: 100px;
+    padding: 0.75rem 1.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.activity-form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+
+.activity-form h2 {
+    margin-top: 0;
+}
+
+.activity-form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+.activity-form input,
+.activity-form textarea,
+.activity-form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 1rem;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.activity-form button:hover {
+    background-color: #3700b3;
+}
